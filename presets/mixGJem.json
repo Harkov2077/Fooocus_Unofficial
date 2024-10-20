@@ -1,5 +1,5 @@
 {
-    "default_model": "mixGJem.safetensors",
+    "default_model": "osorubeshi-pony-real-v7-sdxl",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
@@ -44,8 +44,10 @@
     "default_overwrite_step": -1,
     "default_inpaint_engine_version": "None",
     "checkpoint_downloads": {
-        "mixGJem.safetensors": "https://huggingface.co/Harvey6969/mixGJem/blob/main/mixGJem.safetensors"
+        "osorubeshi-pony-real-v7-sdxl": "https://huggingface.co/John6666/osorubeshi-pony-real-v7-sdxl/resolve/main/unet/diffusion_pytorch_model.safetensors?download=true"
     },
     "embeddings_downloads": {},
     "lora_downloads": {}
+    "vae_downloads": {
+        "osorubeshi-pony-real-v7-sdxl": "https://huggingface.co/John6666/osorubeshi-pony-real-v7-sdxl/resolve/main/vae/diffusion_pytorch_model.safetensors?download=true"
 }
